@@ -2,10 +2,13 @@
   height: 100vh;
   
   #col-left {
-    height: 100%;
     background-image: url('../../assets/images/sideImage.jpg');
     background-position: center;
     background-size: cover;
+  }
+
+  #col-left, #col-right {
+    height: 100%;
   }
 
   ion-button {
@@ -18,22 +21,14 @@
   }
 
   #criar-conta {
-    margin-bottom: 25px;
+    margin: 25px auto;
     --border-radius: 15px;
     --padding-top: 24px;
     --padding-bottom: 24px;
     --background: #159A9C;
   }
 
-  #facebook {
-    --background: #005DB4;
-  }
-
-  #twitter{
-    --background: #00A1FC;
-  }
-
-  #google {
-    --background: #A03131;
-  }
+  #facebook { --background: #005DB4; }
+  #twitter{ --background: #00A1FC; }
+  #google { --background: #A03131; }
 }

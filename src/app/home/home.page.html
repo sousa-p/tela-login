@@ -1,15 +1,15 @@
 <ion-content [fullscreen]="true">
   <ion-row class="ion-align-items-center ion-justify-content-center" id="row-content">
-    <ion-col size="6" id="col-left">
+    <ion-col size="12" size-lg="6" id="col-left">
     </ion-col>
-    <ion-col size="6" id="col-right">
-      <ion-row class="ion-justify-content-center">
+    <ion-col size="12" size-lg="6" id="col-right">
+      <ion-row class="ion-justify-content-center ion-align-items-center" style="height: 100%;">
         <ion-col size="10">
           <ion-text class="ion-text-center">
             <h1>Criar Conta</h1>
           </ion-text>
           
-          <div class="ion-margin-vertical">
+          <ion-list>
             <ion-item>
               <ion-input label="Nome"></ion-input>
             </ion-item>
@@ -22,7 +22,7 @@
             <ion-item>
               <ion-input label="Confirmar Senha"  type="password"></ion-input>
             </ion-item>
-          </div>
+          </ion-list>
 
           <ion-button id="criar-conta">Criar conta</ion-button>
           <ion-text class="ion-text-center">
